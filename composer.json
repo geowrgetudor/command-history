@@ -1,9 +1,9 @@
 {
     "name": "geowrgetudor/command-history",
-    "description": "This is my package command-history",
+    "description": "Track Laravel Artisan commands executions inside Laravel Pulse",
     "keywords": [
-        "George Tudor",
         "laravel",
+        "pulse",
         "command-history"
     ],
     "homepage": "https://github.com/geowrgetudor/command-history",
