@@ -1,11 +1,13 @@
 <p align="center"><img src="/command-history.png" alt="Artisan command history for Laravel Pulse"></p>
 
-# Artisan command history or Laravel Pulse
+# Artisan command history for Laravel Pulse
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/geowrgetudor/command-history.svg?style=flat-square)](https://packagist.org/packages/geowrgetudor/command-history)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/geowrgetudor/command-history/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/geowrgetudor/command-history/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/geowrgetudor/command-history/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/geowrgetudor/command-history/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/geowrgetudor/command-history.svg?style=flat-square)](https://packagist.org/packages/geowrgetudor/command-history)
+
+View what artisan commands have been executed, how many times and if they were successful or failed.
 
 ## Installation
 
@@ -23,7 +25,7 @@ php artisan vendor:publish --tag="command-history-views"
 
 ## Usage
 
-Register the recorder inside `config/pulse.php`. (If you don\'t have this file make sure you have published the config file of Larave Pulse using `php artisan vendor:publish --tag=pulse-config`)
+Register the recorder inside `config/pulse.php`. (If you don\'t have this file make sure you have published the config file of Laravel Pulse using `php artisan vendor:publish --tag=pulse-config`)
 
 ```
 return [
