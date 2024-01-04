@@ -6,7 +6,7 @@
     </x-pulse::card-header>
 
     <x-pulse::scroll :expand="$expand" wire:poll.5s="">
-        @if (empty($executedCommands))
+        @if ($executedCommands->isEmpty())
             <x-pulse::no-results />
         @else
             <x-pulse::table>
